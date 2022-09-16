@@ -1,0 +1,43 @@
+{
+  "name": "vite-personal-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.15.3",
+    "quasar": "^2.8.2",
+    "vue": "^3.2.37",
+    "vue-writer": "^1.2.0"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/vue": "^6.6.1",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-vue": "^9.5.0",
+    "jsdom": "^20.0.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.32.12",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vitest": "^0.23.2",
+    "vue-tsc": "^0.40.4"
+  }
+}
