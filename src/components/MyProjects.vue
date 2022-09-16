@@ -27,6 +27,7 @@
               :width="'300px'"
               :height="'200px'"
               spinner-color="white"
+              :fit="'contain'"
             />
             <h4 class="m-1-r">{{ project.value }}</h4>
           </a>
@@ -65,7 +66,7 @@ export default {
           value: 'Movie Database',
           developedWith: 'Vue.js',
           redirect: 'https://movie-database-ilkercetin.netlify.app/',
-          img: 'https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/62e93989413e71171517a708/screenshot_2022-08-02-14-50-08-0000.png',
+          img: '../../public/movie_database.png',
           label: 1,
           githubLink: 'https://github.com/ilkercetin/movie-listing',
         },
@@ -73,7 +74,7 @@ export default {
           value: 'Memory Game',
           developedWith: 'React',
           redirect: 'https://ilkercetin-memory-game.netlify.app/',
-          img: 'https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/61f7d566d0420a0008fde844/screenshot_2022-01-31-12-27-13-0000.png',
+          img: '../../public/memory_game.png',
           label: 2,
           githubLink: 'https://github.com/ilkercetin/memory-game',
         },
@@ -81,7 +82,7 @@ export default {
           value: 'Color Picker',
           developedWith: 'React',
           redirect: 'https://ilkercetin-color-picker.netlify.app/',
-          img: 'https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/626ef90832c87800088ad7f0/screenshot_2022-05-01-21-18-48-0000.png',
+          img: '../../public/color_picker.png',
           label: 3,
           githubLink: 'https://github.com/ilkercetin/color-picker',
         },
@@ -89,7 +90,7 @@ export default {
           value: 'Todo App',
           developedWith: 'React',
           redirect: 'https://ilkercetin-color-picker.netlify.app/',
-          img: 'https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/61f805776579000007e96651/screenshot_2022-01-31-15-51-55-0000.png',
+          img: '../../public/todo.png',
           label: 4,
           githubLink: 'https://github.com/ilkercetin/to-do-app',
         },
@@ -97,7 +98,7 @@ export default {
           value: 'Recommender Page',
           developedWith: 'Vanilla JS',
           redirect: 'https://recommender-page.netlify.app/',
-          img: 'https://screenshot-proxy.netlify.app/f_avif,w_204/https://d33wubrfki0l68.cloudfront.net/62e80eda3455f500081a32d1/screenshot_2022-08-01-17-35-30-0000.png',
+          img: '../../public/product_recommender.png',
           label: 5,
           githubLink: 'https://github.com/ilkercetin/product-recommender-page',
         },
